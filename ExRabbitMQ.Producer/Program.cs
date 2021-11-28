@@ -10,15 +10,15 @@ using var connection = factory.CreateConnection();
 
 using var channel = connection.CreateModel();
 
-channel.QueueDeclare("hello-queue", true, false, false);
+channel.QueueDeclare("numbers", true, false, false);
 
-string message = "hello world!";
-
-var messageBody = Encoding.UTF8.GetBytes(message);
+var random = new Random();;
 
 for (int i = 0; i < 10; i++)
 {
-    channel.BasicPublish(String.Empty, "hello-queue", null, messageBody);
+    string message = random.Next(0, 100).ToString();
+    var messageBody = Encoding.UTF8.GetBytes(message);
+    channel.BasicPublish(String.Empty, "numbers", null, messageBody);
     Console.WriteLine($"Sended: {message}");
     Thread.Sleep(2000);
 }

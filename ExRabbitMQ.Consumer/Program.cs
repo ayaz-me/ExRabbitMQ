@@ -13,7 +13,7 @@ using var channel = connection.CreateModel();
 
 var consumer = new EventingBasicConsumer(channel);
 
-channel.BasicConsume("hello-queue", true, consumer);
+channel.BasicConsume("numbers", true, consumer);
 
 consumer.Received += (object sender, BasicDeliverEventArgs e) =>
 {
