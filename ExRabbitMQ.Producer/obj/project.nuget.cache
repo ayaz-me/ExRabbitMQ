@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8bIvehFA4ZSnXL1zMShmFDOnWtn8095X0p9m3hwMHuefTaaLDoaVellqOGAuIl2BvtdMwtWeySC6YRj8d/m63g==",
+  "success": true,
+  "projectFilePath": "/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/ExRabbitMQ.Producer.csproj",
+  "expectedPackageFiles": [
+    "/Users/ayaz/.nuget/packages/rabbitmq.client/6.2.2/rabbitmq.client.6.2.2.nupkg.sha512",
+    "/Users/ayaz/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/ayaz/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

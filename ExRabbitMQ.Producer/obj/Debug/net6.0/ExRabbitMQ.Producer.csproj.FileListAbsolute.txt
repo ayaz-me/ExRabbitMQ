@@ -1,0 +1,17 @@
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.GlobalUsings.g.cs
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.csproj.AssemblyReference.cache
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.AssemblyInfoInputs.cache
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.AssemblyInfo.cs
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.csproj.CoreCompileInputs.cache
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/bin/Debug/net6.0/ExRabbitMQ.Producer
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/bin/Debug/net6.0/ExRabbitMQ.Producer.deps.json
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/bin/Debug/net6.0/ExRabbitMQ.Producer.runtimeconfig.json
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/bin/Debug/net6.0/ExRabbitMQ.Producer.dll
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/bin/Debug/net6.0/ref/ExRabbitMQ.Producer.dll
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/bin/Debug/net6.0/ExRabbitMQ.Producer.pdb
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/bin/Debug/net6.0/RabbitMQ.Client.dll
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.dll
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ref/ExRabbitMQ.Producer.dll
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.pdb
+/Users/ayaz/Desktop/ExRabbitMQ/ExRabbitMQ.Producer/obj/Debug/net6.0/ExRabbitMQ.Producer.genruntimeconfig.cache
