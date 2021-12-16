@@ -12,15 +12,13 @@ using var channel = connection.CreateModel();
 
 channel.QueueDeclare("numbers", true, false, false);
 
-var random = new Random();;
-
-for (var a = 0; a < 10; a++)
+Enumerable.Range(1, 50).ToList().ForEach(i =>
 {
-    string message = random.Next(0, 100).ToString();
+    string message = $"Message: {i}";
     var messageBody = Encoding.UTF8.GetBytes(message);
     channel.BasicPublish(String.Empty, "numbers", null, messageBody);
     Console.WriteLine($"Sended: {message}");
-    Thread.Sleep(2000);
-}
+    Thread.Sleep(1000);
+}); 
 
 Console.ReadKey();

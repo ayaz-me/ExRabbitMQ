@@ -11,14 +11,17 @@ using var connection = factory.CreateConnection();
 
 using var channel = connection.CreateModel();
 
+channel.BasicQos(0, 1, false);
+
 var consumer = new EventingBasicConsumer(channel);
 
-channel.BasicConsume("numbers", true, consumer);
+channel.BasicConsume("numbers", false, consumer);
 
 consumer.Received += (object sender, BasicDeliverEventArgs e) =>
 {
     var message = Encoding.UTF8.GetString(e.Body.ToArray());
     Console.WriteLine($"Received: {message}");
+    channel.BasicAck(e.DeliveryTag, false);
 };
 
 Console.ReadKey();
