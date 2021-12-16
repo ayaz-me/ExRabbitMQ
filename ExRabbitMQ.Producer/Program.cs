@@ -14,7 +14,7 @@ channel.QueueDeclare("numbers", true, false, false);
 
 var random = new Random();;
 
-for (int i = 0; i < 10; i++)
+for (var a = 0; a < 10; a++)
 {
     string message = random.Next(0, 100).ToString();
     var messageBody = Encoding.UTF8.GetBytes(message);
@@ -22,3 +22,5 @@ for (int i = 0; i < 10; i++)
     Console.WriteLine($"Sended: {message}");
     Thread.Sleep(2000);
 }
+
+Console.ReadKey();

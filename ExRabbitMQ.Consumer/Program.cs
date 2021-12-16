@@ -20,3 +20,5 @@ consumer.Received += (object sender, BasicDeliverEventArgs e) =>
     var message = Encoding.UTF8.GetString(e.Body.ToArray());
     Console.WriteLine($"Received: {message}");
 };
+
+Console.ReadKey();
